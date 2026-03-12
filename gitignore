@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Dev Containers (non necessario per Streamlit Cloud)
+.devcontainer/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Data files (opzionale - decommenta se non vuoi committare dati)
+# *.csv
+# *.xlsx
+# *.xls
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
